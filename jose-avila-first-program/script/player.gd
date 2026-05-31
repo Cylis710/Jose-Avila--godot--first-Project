@@ -5,6 +5,7 @@ const SPEED = 150.0
 const JUMP_VELOCITY = -230.0
 const MAX_Jumps = 2
 var Jumps_left = MAX_Jumps
+var coins = 0 
 
 func _physics_process(delta):
 	# Add the gravity.
